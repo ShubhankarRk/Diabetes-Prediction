@@ -16,5 +16,25 @@ Python Libraries: Pandas, NumPy, Matplotlib, Seaborn
 
 Machine Learning Frameworks: Scikit-learn
 
-# Results:
-The Random Forest model achieved the highest accuracy of 97.67% with excellent sensitivity and specificity metrics.
+# Key Results:
+
+## Model Performance:
+
+Random Forest emerged as the best-performing model with an accuracy of 97.67%, ROC-AUC of 0.971, sensitivity of 95.7%, and specificity of 98.5%.
+
+KNN achieved an accuracy of 82.83% and ROC-AUC of 0.814, showing strong performance among non-ensemble methods.
+
+Logistic Regression provided interpretable results but had lower accuracy (81%) compared to ensemble methods.
+
+## Feature Insights:
+Glucose levels showed the strongest correlation with diabetes outcomes (r = 0.46).
+
+BMI was another significant predictor (r=0.28), emphasizing its role in diabetes risk assessment.
+
+## Categorization Findings:
+
+Patients categorized as "Overweight" or "Obese" based on BMI showed a higher prevalence of diabetes.
+
+Blood pressure categorization revealed that individuals with "Stage 2 Hypertension" were more likely to have diabetes.
+
+These findings highlight the effectiveness of Random Forest in identifying at-risk individuals while emphasizing the importance of clinical features like glucose levels and BMI for prediction tasks.
