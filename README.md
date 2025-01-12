@@ -15,3 +15,6 @@ Categorical Insights: Categorization of attributes like BMI and blood pressure f
 Python Libraries: Pandas, NumPy, Matplotlib, Seaborn
 
 Machine Learning Frameworks: Scikit-learn
+
+# Results:
+The Random Forest model achieved the highest accuracy of 97.67% with excellent sensitivity and specificity metrics.
